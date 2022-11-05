@@ -27,59 +27,52 @@
     </div>
     <div class="main">
       <div class="textinfodiv">
-        <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
+        <p>
+          Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint
+          cillum sint consectetur cupidatat.
+        </p>
         <p>Sign up to this <em>fictional</em> online service!</p>
       </div>
       <div class="formdiv">
         <p>Let's <em>do </em>this!</p>
         <form action="#" method="get">
           <div class="namediv">
-            <label for="first_name">First Name</label>
-            <input
-              type="text"
-              name="first_name"
-              id="first_name"
-              placeholder="John"
-              required
-            />
-            <label for="last_name">Last Name</label>
-            <input
-              type="text"
-              name="last_name"
-              id="last_name"
-              placeholder="Doe"
-              required
-            />
+            <div class="formgroup">
+              <label for="first_name">First Name</label>
+              <input type="text" name="first_name" id="first_name" placeholder="John" required />
+            </div>
+
+            <div class="formgroup">
+              <label for="last_name">Last Name</label>
+              <input type="text" name="last_name" id="last_name" placeholder="Doe" required />
+            </div>
           </div>
+
           <div class="contactdiv">
-            <label for="email_add">Email</label>
-            <input
-              type="email"
-              name="email_add"
-              id="email_add"
-              placeholder="John@Doe.com"
-              required
-            />
-            <label for="phone_num">Phone</label>
-            <input
-              type="text"
-              name="phone_num"
-              id="phone_num"
-              placeholder="(+69) 123 567 8987"
-              required
-            />
+            <div class="formgroup">
+              <label for="email_add">Email</label>
+              <input type="email" name="email_add" id="email_add" placeholder="John@Doe.com" required
+              />
+            </div>
+
+            <div class="formgroup">
+              <label for="phone_num">Phone</label>
+              <input type="text" name="phone_num" id="phone_num" placeholder="(+69) 123 567 8987" required />
+            </div>
           </div>
+
           <div class="passworddiv">
-            <label for="pwd_user">Password</label>
-            <input type="password" name="pwd_user" id="pwd_user" required />
-            <label for="pwd_confirm">Confirm Password</label>
-            <input
-              type="password"
-              name="pwd_confirm"
-              id="pwd_confirm"
-              required
-            />
+            <div class="formgroup">
+              <label for="pwd_user">Password</label>
+              <input type="password" name="pwd_user" id="pwd_user" required />
+            </div>
+
+            <div class="formgroup">
+              <label for="pwd_confirm">Confirm Password</label>
+              <input type="password" name="pwd_confirm" id="pwd_confirm" required />
+            </div>
           </div>
+
           <div class="submitdiv">
             <button type="submit">Create Account</button>
             <p>Already have an account? <a href="#">Log in</a></p>

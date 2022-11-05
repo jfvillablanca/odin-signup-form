@@ -52,14 +52,17 @@ body {
 
 .main {
   padding-left: 3rem;
+  padding-right: 3rem;
   display: flex;
   flex-direction: column;
 }
 
 .textinfodiv {
   height: 30vh;
+
   font-size: 3rem;
   font-weight: bold;
+
   padding-bottom: 3rem;
   vertical-align: bottom;
   display: flex;
@@ -70,4 +73,10 @@ body {
 .formdiv {
   display: flex;
   flex-direction: column;
+}
+
+.namediv,
+.contactdiv,
+.passworddiv {
+  display: flex;
 }
