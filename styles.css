@@ -57,12 +57,14 @@ body {
   flex-direction: column;
 }
 
-.textinfodiv {
-  height: 30vh;
-
+.textinfodiv,
+.formdiv p{
   font-size: 3rem;
   font-weight: bold;
+}
 
+.textinfodiv {
+  height: 30vh;
   padding-bottom: 3rem;
   vertical-align: bottom;
   display: flex;
@@ -73,6 +75,8 @@ body {
 .formdiv {
   display: flex;
   flex-direction: column;
+  background-color: white;
+  /* box-shadow: 0px 2px 2px 1px black; */
 }
 
 .namediv,
@@ -87,7 +91,9 @@ body {
 .formgroup {
   padding-top: 1rem;
   margin-right: 2rem;
+
   border: 1px solid;
+  border-radius: 0.5rem;
   width: 100%;
   max-height: 4rem;
 }
@@ -105,4 +111,14 @@ body {
   margin-left: 1rem;
   top: -2rem;
   width: 90%;
+}
+
+.submitdiv button {
+  margin-top: 2rem;
+  height: 4rem;
+  width: 25rem;
+  color: #eaedf0;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  background-color: #AA3E58;
 }
