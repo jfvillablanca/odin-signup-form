@@ -10,7 +10,8 @@
 :root {
   /* Set rem to 10px*/
   font-size: 62.5%;
-  font-family: 'IBM Plex Sans', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'IBM Plex Sans', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: Geneva, Verdana, sans-serif;
   height: 100vh;
   overflow: hidden;
   /* width: 100%; */
@@ -75,7 +76,7 @@ body {
 .textinfodiv,
 .formdiv p{
   font-size: 2.5rem;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .formdiv p:last-child {
@@ -83,6 +84,11 @@ body {
   font-size: 1.6rem;
 }
 
+.formdiv a {
+  text-decoration: none;
+  font-weight: 1000;
+  color: #AA3E58;
+}
 .textinfodiv {
   height: 30vh;
   padding-bottom: 3rem;
