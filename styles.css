@@ -1,20 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans');
+
 * {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Set rem to 10px*/
+  font-size: 62.5%;
+  font-family: 'IBM Plex Sans', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
+  font-size: 1.6rem;
+  color: #5d6063;
+  background-color: #eaedf0;
   height: 100vh;
+  width: 100vw;
 
   display: flex;
 }
 
 .image-sidebar {
-  height: inherit;
+  width: 40vw;
+  text-align: center;
+}
+
+.image-sidebar img {
+  height: 100%;
+  width: 40vw;
+  /* opacity: 50%; */
+  z-index: -1;
+  object-fit: cover;
+}
+
+.image-sidebar p{
+  width: 100%;
+  font-size: 1.4rem;
+  position: relative;
+  bottom: 3ch;
+  color: white;
+  background: rgba(00, 00, 00, 0.4);
+}
+
+.image-sidebar p a{
+  /* text-decoration: none; */
+  font-weight: bold;
+  color: white;
 }
 
 .main {
-  flex-basis: 70%;
-  background: #fff;
+  padding-left: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.textinfodiv {
+  height: 30vh;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 3rem;
+  vertical-align: bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.formdiv {
+  display: flex;
+  flex-direction: column;
 }
