@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign Up!</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="image-sidebar">
+      <img
+        src="assets/images/susan-wilkinson-bG8zo9TmHh4-unsplash.jpg"
+        alt="liquid art photography of blue and purple"
+      />
+      <p>
+        Photo by
+        <a
+          href="https://unsplash.com/@susan_wilkinson?utm_source=unsplash&utm_medium=referral&utm_content=creditcopytext"
+          >Susan Wilkinson</a
+        >
+        on
+        <a
+          href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditcopytext"
+          >Unsplash</a
+        >
+      </p>
+    </div>
+    <div class="main">
+      <div class="textinfodiv">
+        <p>Sign up to this <em>fictional</em> online service!</p>
+      </div>
+      <div class="formdiv">
+        <p>Let's <em>do </em>this!</p>
+        <form action="#" method="get">
+          <div class="namediv">
+            <label for="first_name">First Name</label>
+            <input
+              type="text"
+              name="first_name"
+              id="first_name"
+              placeholder="John"
+              required
+            />
+            <label for="last_name">Last Name</label>
+            <input
+              type="text"
+              name="last_name"
+              id="last_name"
+              placeholder="Doe"
+              required
+            />
+          </div>
+          <div class="contactdiv">
+            <label for="email_add">Email</label>
+            <input
+              type="email"
+              name="email_add"
+              id="email_add"
+              placeholder="John@Doe.com"
+              required
+            />
+            <label for="phone_num">Phone</label>
+            <input
+              type="text"
+              name="phone_num"
+              id="phone_num"
+              placeholder="(+69) 123 567 8987"
+              required
+            />
+          </div>
+          <div class="passworddiv">
+            <label for="pwd_user">Password</label>
+            <input type="password" name="pwd_user" id="pwd_user" required />
+            <label for="pwd_confirm">Confirm Password</label>
+            <input
+              type="password"
+              name="pwd_confirm"
+              id="pwd_confirm"
+              required
+            />
+          </div>
+          <div class="submitdiv">
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
