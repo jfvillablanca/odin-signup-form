@@ -37,9 +37,11 @@ body {
   /* width: 40%; */
   /* flex-basis: 40vw; */
   text-align: center;
+  position: relative;
 }
 
 .image-sidebar .background {
+  /* position: absolute; */
   height: 100%;
   width: 100%;
   opacity: 90%;
@@ -48,10 +50,17 @@ body {
   object-position: 50% 50%;
 }
 
-/* .image-sidebar .icon { */
-/*   width: 100%; */
-/*   z-index: 1; */
-/* } */
+.image-sidebar .icon {
+  width: inherit;
+  z-index: 1;
+  position: absolute;
+  top: 25%;
+  /* left: 50%; */
+}
+
+.icon img {
+  height: 30rem;
+}
 
 .image-sidebar p {
   width: 100%;
